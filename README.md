@@ -103,7 +103,9 @@ https://developer.apple.com/account/#/membership/
 
 17. Once your app has been approved, try going to `https://aheze.github.io/MyAppClipWebsite/`. You should see the app clip!
 
-That should be it. If you have any questions, here's my contact info:
+That should be it. You can find a live example at [getfind.app](https://getfind.app/).
+
+If you have any questions, here's my contact info:
 
 - Discord - [aheze#3125](https://discord.com/users/743230678795288637)
 - Reddit - [u/aheze](https://www.reddit.com/user/aheze)
