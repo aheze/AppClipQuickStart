@@ -49,6 +49,59 @@ struct ContentView: View {
 ![Screen Shot 2021-04-03 at 3 26 48 PM](https://user-images.githubusercontent.com/49819455/113493049-07fb2380-9491-11eb-824a-d7f478c21b6a.png)
 
 
-10. That's all you need on the app side. Now, it's time to configure the web page where the app clip will be launched from.
-11. 
+10. That's all you need on the app side. Now, it's time to configure the web page where the app clip will be launched from. You'll need a place to host an ` apple-app-site-association` file.
+11. I like GitHub Pages, because it's free. I've already set up everything in this repo, so click <kbd>Use this template</kbd> at the top of this pace.
+
+Use this template | Make sure to check "Include all branches"
+--- | ---
+![Screen Shot 2021-04-03 at 3 33 11 PM](https://user-images.githubusercontent.com/49819455/113493177-10a02980-9492-11eb-91a0-e4570dd24d96.png) | ![Screen Shot 2021-04-03 at 3 33 30 PM](https://user-images.githubusercontent.com/49819455/113493178-139b1a00-9492-11eb-9d63-644254c7da91.png)
+
+12. Enable GitHub Pages in the `Settings` tab of the newly-made repo. Select branch **GitHubPages** and **/ (root)** folder.
+
+
+![Screen Shot 2021-04-03 at 3 42 44 PM](https://user-images.githubusercontent.com/49819455/113493340-4265c000-9493-11eb-8e35-9ca5c600d799.png)
+
+
+13. Select the "GitHubPages" branch, then check out the `apple-app-site-association` file.
+
+
+```JSON
+---
+layout: none
+permalink: .well-known/apple-app-site-association
+---
+
+{
+    "appclips": {
+        "apps": [
+            "YA533DMD5J.aheze.AppClipQuickStart.Clip
+        ]
+    }
+}
+```
+
+13. Replace `YA533DMD5J` with your own Team ID. You can find this at:
+
+```
+https://developer.apple.com/account/#/membership/
+```
+
+![Screen Shot 2021-04-03 at 3 39 07 PM](https://user-images.githubusercontent.com/49819455/113493284-daaf7500-9492-11eb-95d1-505b59906765.png)
+
+
+14. Also, replace `.aheze.AppClipQuickStart.Clip` with your app clip's Bundle ID. You can find this inside Xcode, at `Project Settings -> Targets -> MyCoolAppClip -> Signing and Capabilities -> Bundle Identifier`.
+
+![Screen Shot 2021-04-03 at 3 41 08 PM](https://user-images.githubusercontent.com/49819455/113493310-0599c900-9493-11eb-8ad3-5bd594126261.png)
+
+15. Wait a little bit, then try going to `https://aheze.github.io/MyAppClipWebsite/.well-known/apple-app-site-association` (replace `MyAppClipWebsite` with the name of your newly-generated repo). Your browser should download that file, which should look something like this:
+
+![Screen Shot 2021-04-03 at 3 46 40 PM](https://user-images.githubusercontent.com/49819455/113493402-d5065f00-9493-11eb-9faf-d990dabc52c7.png)
+
+16. That's all you need. Now, once you upload your app to App Store Connect, you should be able to configure your app clip.
+
+![Screen Shot 2021-04-03 at 3 47 43 PM](https://user-images.githubusercontent.com/49819455/113493415-f404f100-9493-11eb-8817-d64f2b7c7579.png)
+
+17. Once your app has been approved, try going to `https://aheze.github.io/MyAppClipWebsite/`. You should see the app clip!
+
+
 
