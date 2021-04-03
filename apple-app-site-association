@@ -1,0 +1,12 @@
+---
+layout: none
+permalink: .well-known/apple-app-site-association
+---
+
+{
+    "appclips": {
+        "apps": [
+            "YA533DMD5J.aheze.AppClipQuickStart.Clip
+        ]
+    }
+}
