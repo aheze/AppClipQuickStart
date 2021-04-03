@@ -44,13 +44,15 @@ struct ContentView: View {
 
 ![Screen Shot 2021-04-03 at 3 26 01 PM](https://user-images.githubusercontent.com/49819455/113493036-ef8b0900-9490-11eb-83bb-3ba7ae2bfb36.png)
 
-9. Add your website inside the text field. Mines is `getfind.app`. I'm not sure about this, but don't put the `www` in front.
+9. Add your domain inside the text field. Mines is `getfind.app`.
+
+I'm not sure if you can do this without a custom domain. However, you can try putting `aheze.github.io/MyAppClipWebsite/` here (replace with your website that you will create in Step 11).
 
 ![Screen Shot 2021-04-03 at 3 26 48 PM](https://user-images.githubusercontent.com/49819455/113493049-07fb2380-9491-11eb-824a-d7f478c21b6a.png)
 
 
 10. That's all you need on the app side. Now, it's time to configure the web page where the app clip will be launched from. You'll need a place to host an ` apple-app-site-association` file.
-11. I like GitHub Pages, because it's free. I've already set up everything in this repo, so click <kbd>Use this template</kbd> at the top of this pace.
+11. I like GitHub Pages, because it's free. I've already set up everything in this repo, so click <kbd>Use this template</kbd> at the top of this pace. Enter a name for your repo (I did MyAppClipWebsite).
 
 Use this template | Make sure to check "Include all branches"
 --- | ---
