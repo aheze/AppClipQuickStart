@@ -1,5 +1,5 @@
 # AppClipQuickStart
-Instructions on how to make an app clip.
+Instructions on how to make an app clip. This will eventualyl get cleaned up and transformed into an article.
 
 1. Add a new target
 
@@ -44,9 +44,9 @@ struct ContentView: View {
 
 ![Screen Shot 2021-04-03 at 3 26 01 PM](https://user-images.githubusercontent.com/49819455/113493036-ef8b0900-9490-11eb-83bb-3ba7ae2bfb36.png)
 
-9. Add your domain inside the text field. Mines is `getfind.app`.
+9. Add your domain inside the text field, in the form of `appclips:<DOMAIN_NAME>` Mines is `appclips:getfind.app`.
 
-I'm not sure if you can do this without a custom domain. However, you can try putting `aheze.github.io/MyAppClipWebsite/` here (replace with your website that you will create in Step 11).
+I'm not sure if you can do this without a custom domain. You might need to buy one first, then [link it to GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages). However, you can try putting `aheze.github.io/MyAppClipWebsite/` here (replace with your website that you will create in Step 11).
 
 ![Screen Shot 2021-04-03 at 3 26 48 PM](https://user-images.githubusercontent.com/49819455/113493049-07fb2380-9491-11eb-824a-d7f478c21b6a.png)
 
