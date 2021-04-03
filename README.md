@@ -89,7 +89,7 @@ https://developer.apple.com/account/#/membership/
 ![Screen Shot 2021-04-03 at 3 39 07 PM](https://user-images.githubusercontent.com/49819455/113493284-daaf7500-9492-11eb-95d1-505b59906765.png)
 
 
-14. Also, replace `.aheze.AppClipQuickStart.Clip` with your app clip's Bundle ID. You can find this inside Xcode, at `Project Settings -> Targets -> MyCoolAppClip -> Signing and Capabilities -> Bundle Identifier`.
+14. Also, replace `aheze.AppClipQuickStart.Clip` with your app clip's Bundle ID. You can find this inside Xcode, at `Project Settings -> Targets -> MyCoolAppClip -> Signing and Capabilities -> Bundle Identifier`.
 
 ![Screen Shot 2021-04-03 at 3 41 08 PM](https://user-images.githubusercontent.com/49819455/113493310-0599c900-9493-11eb-8ad3-5bd594126261.png)
 
@@ -102,6 +102,12 @@ https://developer.apple.com/account/#/membership/
 ![Screen Shot 2021-04-03 at 3 47 43 PM](https://user-images.githubusercontent.com/49819455/113493415-f404f100-9493-11eb-8817-d64f2b7c7579.png)
 
 17. Once your app has been approved, try going to `https://aheze.github.io/MyAppClipWebsite/`. You should see the app clip!
+
+That should be it. If you have any questions, here's my contact info:
+
+- Discord - [aheze#3125](https://discord.com/users/743230678795288637)
+- Reddit - [u/aheze](https://www.reddit.com/user/aheze)
+- Email - [aheze@getfind.app](mailto:aheze@getfind.app)
 
 
 
