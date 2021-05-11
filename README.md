@@ -52,7 +52,7 @@ struct ContentView: View {
 
 
 10. That's all you need on the app side. Now, it's time to configure the web page where the app clip will be launched from. You'll need a place to host an ` apple-app-site-association` file.
-11. I used GitHub Pages, because it's free. I've already set up everything in this repo, so click <kbd>Use this template</kbd> at the top of this page. Enter a name for your repo (I did MyAppClipWebsite).
+11. I used GitHub Pages, because it's free. I've already set up everything in this repo, so click <kbd>Use this template</kbd> at the top of this page. Enter a name for your repo (I did "MyAppClipWebsite").
 
 Use this template | Make sure to check "Include all branches"
 --- | ---
@@ -99,9 +99,11 @@ https://developer.apple.com/account/#/membership/
 
 ![Screen Shot 2021-04-03 at 3 41 08 PM](https://user-images.githubusercontent.com/49819455/113493310-0599c900-9493-11eb-8ad3-5bd594126261.png)
 
-15. Wait a little bit, then try going to `https://aheze.github.io/MyAppClipWebsite/.well-known/apple-app-site-association` (replace `MyAppClipWebsite` with the name of your newly-generated repo). Your browser should download that file, which should look something like this:
+15. Wait a little bit, then try going to `https://YOURGITHUBUSERNAME.github.io/MyAppClipWebsite/.well-known/apple-app-site-association` (replace `MyAppClipWebsite` with the name of your newly-generated repo). Your browser should download that file, which should look something like this:
 
 ![Screen Shot 2021-04-03 at 3 46 40 PM](https://user-images.githubusercontent.com/49819455/113493402-d5065f00-9493-11eb-9faf-d990dabc52c7.png)
+
+If you linked GitHub Pages to your custom domain correctly, you should also be able to download the file at `https://yourwebsite.com/.well-known/apple-app-site-association`. For example, going to [https://getfind.app/.well-known/apple-app-site-association](https://getfind.app/.well-known/apple-app-site-association) will download the file.
 
 16. That's all you need. Now, once you upload your app to App Store Connect, you should be able to configure your app clip.
 
