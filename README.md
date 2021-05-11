@@ -44,19 +44,23 @@ struct ContentView: View {
 
 ![Screen Shot 2021-04-03 at 3 26 01 PM](https://user-images.githubusercontent.com/49819455/113493036-ef8b0900-9490-11eb-83bb-3ba7ae2bfb36.png)
 
-9. Add your domain inside the text field, in the form of `appclips:<DOMAIN_NAME>` Mines is `appclips:getfind.app`.
+9. Add your domain inside the text field, in the form of `appclips:<DOMAIN_NAME>`. Mines is `appclips:getfind.app`.
 
-I'm not sure if you can do this without a custom domain. You might need to buy one first, then [link it to GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages). However, you can try putting `appclips:aheze.github.io/MyAppClipWebsite` here (replace with your website that you will create in Step 11). Not 100% sure that will work though...
+**I'm pretty sure you need to own a custom domain first.** I bought a domain, [getfind.app](https://getfind.app/), then linked it to GitHub Pages. You should also do this.
 
 ![Screen Shot 2021-04-03 at 3 26 48 PM](https://user-images.githubusercontent.com/49819455/113493049-07fb2380-9491-11eb-824a-d7f478c21b6a.png)
 
 
 10. That's all you need on the app side. Now, it's time to configure the web page where the app clip will be launched from. You'll need a place to host an ` apple-app-site-association` file.
-11. I like GitHub Pages, because it's free. I've already set up everything in this repo, so click <kbd>Use this template</kbd> at the top of this pace. Enter a name for your repo (I did MyAppClipWebsite).
+11. I used GitHub Pages, because it's free. I've already set up everything in this repo, so click <kbd>Use this template</kbd> at the top of this page. Enter a name for your repo (I did MyAppClipWebsite).
 
 Use this template | Make sure to check "Include all branches"
 --- | ---
 ![Screen Shot 2021-04-03 at 3 33 11 PM](https://user-images.githubusercontent.com/49819455/113493177-10a02980-9492-11eb-91a0-e4570dd24d96.png) | ![Screen Shot 2021-04-03 at 3 33 30 PM](https://user-images.githubusercontent.com/49819455/113493178-139b1a00-9492-11eb-9d63-644254c7da91.png)
+
+Then, link your newly-generated repo to your custom domain:
+
+### [Instructions to link your GitHub pages website to your custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)
 
 12. Enable GitHub Pages in the `Settings` tab of the newly-made repo. Select branch **GitHubPages** and **/ (root)** folder.
 
