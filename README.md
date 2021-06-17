@@ -1,5 +1,5 @@
 # AppClipQuickStart
-Instructions on how to make an app clip. This will eventually get cleaned up and transformed into an article.
+Instructions on how to make and publish an app clip. This will eventually get cleaned up and transformed into an article.
 
 1. Add a new target
 
