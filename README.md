@@ -46,7 +46,8 @@ struct ContentView: View {
 
 9. Add your domain inside the text field, in the form of `appclips:<DOMAIN_NAME>`. Mines is `appclips:getfind.app`.
 
-**I'm pretty sure you need to own a custom domain first.** I bought a domain, [getfind.app](https://getfind.app/), then linked it to GitHub Pages. You should also do this.
+# Important!
+**I'm pretty sure you need to own a custom domain first.** I bought a domain, [getfind.app](https://getfind.app/), then linked it to GitHub Pages. You should also buy a domain (`https://yourwebsite.com`) first.
 
 ![Screen Shot 2021-04-03 at 3 26 48 PM](https://user-images.githubusercontent.com/49819455/113493049-07fb2380-9491-11eb-824a-d7f478c21b6a.png)
 
@@ -109,7 +110,7 @@ If you linked GitHub Pages to your custom domain correctly, you should also be a
 
 ![Screen Shot 2021-04-03 at 3 47 43 PM](https://user-images.githubusercontent.com/49819455/113493415-f404f100-9493-11eb-8817-d64f2b7c7579.png)
 
-17. Once your app has been approved, try going to `https://aheze.github.io/MyAppClipWebsite/`. You should see the app clip!
+17. Once your app has been approved, try going to `https://yourwebsite.com`. You should see the app clip!
 
 That should be it. You can find a live example at [getfind.app](https://getfind.app/).
 
